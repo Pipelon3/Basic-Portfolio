@@ -3,14 +3,13 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/concrete_seamless.png");
+  background: darkgray;
 }
 
 * {
   box-sizing: border-box;
 }
 
-/* general */
 
 .container {
   width: 100%;
@@ -50,8 +49,6 @@ h3 {
   font-size: 22px;
 }
 
-/* header */
-
 #masthead {
   position: fixed;
   z-index: 99;
@@ -74,7 +71,7 @@ h3 {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: rgb(143, 24, 50);
 }
 
 nav {
@@ -96,8 +93,6 @@ nav a:first-child {
   border-left: 0 none;
 }
 
-/* footer */
-
 footer {
   padding: 30px 0;
   clear: both;
@@ -106,7 +101,7 @@ footer {
   color: #cccccc;
   text-align: center;
   background: #666666;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid rgb(143, 24, 50);
   height: 50px;
 }
 
@@ -116,8 +111,6 @@ h3, h2 {
   line-height: 22px;
   border-bottom: 2px solid #eeeeee;
 }
-
-/* main */
 
 #main-container {
   padding-top: 130px;
@@ -133,8 +126,6 @@ h3, h2 {
   background: #ffffff;
   border: 1px solid #dddddd;
 }
-
-/* portfolio page */
 
 .work {
   position: relative;
@@ -176,8 +167,6 @@ h3, h2 {
   margin-right: 25px;
 }
 
-/* contact page */
-
 #contact-form ul {
   margin-bottom: 20px;
 }
@@ -212,6 +201,6 @@ input[type=submit] {
   font-size: 18px;
   color: #ffffff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: rgb(143, 24, 50);
   border: 0 none;
 }
